@@ -98,13 +98,13 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            Started as Intern .NET MVC Developer at {""}
+            Started as Intern ASP.NET MVC Developer at {""}
             <Link href="https://devmaster.edu.vn/">Devsoft</Link>
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Worked as .NET MVC Developer at {""}
-            <Link href="https://www.triducsolution.com/Index-vn.html">
+            Worked as ASP.NET MVC and .NET Core Developer at {""}
+            <Link href="https://www.triducsolution.com/Index.html">
               Tri Duc Solution
             </Link>
           </BioSection>
