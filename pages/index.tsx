@@ -24,14 +24,14 @@ const Home = () => {
           mb={6}
           align="center"
         >
-          <p>Hello, I'm a Frontend developer based in Hanoi</p>
+          Hello, I'm a Frontend developer based in Hanoi
         </Box>
         <Box display={{ md: "flex" }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
               Tuan Nguyen
             </Heading>
-            <p>Frontend Developer</p>
+            Frontend Developer
           </Box>
           <Box
             flexShrink={0}
