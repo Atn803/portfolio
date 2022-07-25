@@ -14,7 +14,7 @@ const NotFoundPage = () => {
       <Text>Unfortunately the page you were looking for was not found.</Text>
       <Text>I am sorry for this inconvenience.</Text>
       <Divider my={6} />
-      <Box my={6} align="center">
+      <Box my={6}>
         <Link href="/" passHref>
           <Button colorScheme="telegram">Return to homepage</Button>
         </Link>

@@ -44,7 +44,7 @@ const LinkItem = ({ href, path, children, target, style }: ILinkItem) => {
   );
 };
 
-const Navbar = (props) => {
+const Navbar = (props: any) => {
   const { path } = props;
   return (
     <Box
@@ -100,7 +100,7 @@ const Navbar = (props) => {
           </LinkItem>
         </Stack>
 
-        <Box flex={1} align="right">
+        <Box flex={1}>
           <ThemeToggleButton />
           <Box ml={2} display={{ base: "inline-block", md: "none" }}>
             <Menu>
@@ -120,7 +120,11 @@ const Navbar = (props) => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
-                <a target="_blank" rel="noreferrer" href="https://github.com/Atn803">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/Atn803"
+                >
                   <MenuItem as={Link}>View Source</MenuItem>
                 </a>
               </MenuList>
