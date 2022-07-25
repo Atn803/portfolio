@@ -24,7 +24,7 @@ const Home = () => {
           mb={6}
           align="center"
         >
-          Hello, I'm a Frontend developer based in Hanoi
+          Hello, I&apos;m a Frontend developer based in Hanoi
         </Box>
         <Box display={{ md: "flex" }}>
           <Box flexGrow={1}>
@@ -57,7 +57,7 @@ const Home = () => {
           </Heading>
           <Paragraph>
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            industry. Lorem Ipsum has been the industry&apos;s standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
@@ -66,7 +66,7 @@ const Home = () => {
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
             dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
+            been the industry&apos;s standard dummy text ever since the 1500s, when
             an unknown printer took a galley of type and scrambled it to make a
             type specimen book. It has survived not only five centuries, but
             also the leap into electronic typesetting, remaining essentially
@@ -94,7 +94,7 @@ const Home = () => {
           <BioSection>
             <BioYear>2020</BioYear>
             Graduated from University of Transports and Communications with
-            Engineer's degree in Information and communication technology
+            Engineer&apos;s degree in Information and communication technology
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
